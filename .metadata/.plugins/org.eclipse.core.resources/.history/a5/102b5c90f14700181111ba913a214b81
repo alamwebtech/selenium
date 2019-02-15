@@ -1,0 +1,19 @@
+class HelloWorld{
+	public static void main (String args[]){
+		int age = 21;
+		switch(age){
+		case 1:
+			System.out.println("You can enter n the pub..!!");
+			break;
+		case 2:
+			System.out.println("You are not age enough to enter int he pub");
+			break;
+		case 21:
+			System.out.println("Show me your ID to prove you are a humen");
+			break;
+			default:
+				System.out.println("Unknow Person");
+				break;
+		}
+	}
+}

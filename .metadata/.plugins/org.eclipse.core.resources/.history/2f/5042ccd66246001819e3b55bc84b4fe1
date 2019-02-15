@@ -1,0 +1,14 @@
+
+
+import java.util.Scanner;
+
+class HelloWorld {
+	public static void main (String args[]){
+		
+		
+	Scanner dell = new Scanner (System.in);
+	
+	System.out.println(dell.nextLine());
+	
+}
+}

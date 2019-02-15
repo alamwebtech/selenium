@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+//class HelloWorld {
+//	
+//	public static void main (String args[]){
+//		Scanner calculater = new Scanner (System.in);
+//		
+//		int fnum, snum, result;
+//		
+//		System.out.println("Enter Your First Nunber: ");
+//		
+//		fnum = calculater.nextInt();
+//		
+//		System.out.println("Enter Your Second Number: ");
+//		
+//		snum = calculater.nextInt();
+//		
+//		result = (int)fnum + snum;
+//		
+//		
+//		
+//		System.out.println(" Here is your result : " + result);
+//	}
+//}
+
+class HelloWorld {
+	
+	public static void main (String args[]){
+		
+		Scanner modulas = new Scanner (System.in);
+		
+		int fnum, snum, result;
+		 System.out.println("Enter your first number: ");
+		 
+		 fnum = modulas.nextInt();
+		 
+		 System.out.println("Enter the your second number : ");
+		 
+		 snum = modulas.nextInt();
+		 
+		 result = fnum % snum;
+		 
+		 System.out.println("Here is the reminder: " + result);
+	}
+	
+	
+}

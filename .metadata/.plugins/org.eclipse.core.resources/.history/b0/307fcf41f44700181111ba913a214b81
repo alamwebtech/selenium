@@ -1,0 +1,14 @@
+class HelloWorld{
+	public static void main(String args[]){
+		anotherClass myObject = new anotherClass();
+		
+		myObject.myMessage();
+		
+		javaClass myJavaObject = new javaClass();
+		
+		myJavaObject.myJavaClass();
+	}
+	
+	
+	
+}

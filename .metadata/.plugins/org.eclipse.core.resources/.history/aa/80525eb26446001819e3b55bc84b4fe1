@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class HelloWorld {
+	
+	public static void main (String args[]){
+		Scanner calculater = new Scanner (System.in);
+		
+		double fnum, snum, result;
+		
+		System.out.println("Enter Your First Nunber: ");
+		
+		fnum = calculater.nextInt();
+		
+		System.out.println("Enter Your Second Number: ");
+		
+		snum = calculater.nextInt();
+		
+		result = (int)fnum + snum;
+		
+		System.out.println(" Here is your result : " + result);
+	}
+}

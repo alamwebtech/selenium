@@ -1,0 +1,31 @@
+package AutomatedScripts;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class GoogleSearchOneTime {
+	public static void main (String args[]){
+		
+		//Launch a Firefox browser
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\ferar\\Desktop\\SOFTWARE\\eclipse\\ECLIPES 2017\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver ();
+
+		//Go to Google.com
+		driver.get("https://www.google.com");
+		//Enter search term "google"
+		driver.findElement(By.id("lst-ib")).sendKeys("hello");
+		driver.findElement(By.id("lst-ib")).sendKeys(Keys.ENTER);
+		
+		//Click search button
+		driver.findElement(By.name("btnG")).clear();
+		
+		//Check page title contains the search term
+		
+	}
+	
+
+}
