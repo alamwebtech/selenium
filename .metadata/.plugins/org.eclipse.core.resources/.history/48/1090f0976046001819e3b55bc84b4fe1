@@ -1,0 +1,11 @@
+public class HelloWorld {
+	
+	
+	public static void main ( String args[]){
+		double interestRate 
+		double amount = (amount * ( interestRate /100));
+		
+		
+		
+	}
+}

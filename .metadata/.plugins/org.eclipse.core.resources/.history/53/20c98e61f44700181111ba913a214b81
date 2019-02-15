@@ -1,0 +1,6 @@
+
+public class javaClass {
+public void myJavaClass(){
+	System.out.println("I am from My Java Class..!!");
+}
+}

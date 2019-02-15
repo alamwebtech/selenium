@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+class HelloWorld{
+	public static void main(String args[]){
+		
+//		From Another Class
+		
+		anotherClass myObject = new anotherClass();
+		
+		myObject.myMessage();
+		
+		Scanner shaf = new Scanner (System.in);
+		
+//		From Java Class
+		
+		javaClass myJavaObject = new javaClass();
+		
+		System.out.println("Enter Your name here: ");
+		
+		String name = shaf.nextLine();
+		
+		myJavaObject.myJavaClass(name);
+	}
+	
+	
+	
+}

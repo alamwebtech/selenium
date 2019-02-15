@@ -1,0 +1,24 @@
+package AutomatedScripts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class GoogleSearchOneTime {
+	public static void main (String args[]){
+		
+		//Launch a Firefox browser
+		WebDriver driver = new FirefoxDriver ();
+		
+		
+		//Go to Google.com
+		
+		//Enter search term
+		
+		//Click search button
+		
+		//Check page title contains the search term
+		
+	}
+	
+
+}

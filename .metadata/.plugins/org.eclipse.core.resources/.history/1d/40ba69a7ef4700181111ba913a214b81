@@ -1,0 +1,21 @@
+class HelloWorld {
+	
+	public static void main (String args[]){
+		int age = 3;
+		
+		switch (age){
+		case 1: 
+			System.out.println("Wel come to the new world..!!");
+			break;
+		case 2: 
+			System.out.println("Wow..!! You can talk ..!!");
+			break;
+		case 3: 
+			System.out.println("I guess you can run now...!!");
+			break;
+			
+			default:
+				System.out.println(" The baby does not exist..!!");
+		}
+	}
+}

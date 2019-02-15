@@ -1,0 +1,13 @@
+class HelloWorld{
+	
+	public static void main (String args[]){
+		
+		int age = 21;
+		
+		if (age == 21){
+			System.out.println(" You are welcome");
+		}else{
+			System.out.println("You are under age to enter in the PUB..!!");
+		}
+	}
+}
